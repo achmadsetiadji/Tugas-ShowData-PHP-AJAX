@@ -98,10 +98,6 @@
                                         <label>Jurusan</label>
                                         <input type="text" class="form-control" id="Jurusan" readonly>
                                     </div>
-                                    <div class="form-group">
-                                        <label>Biodata</label>
-                                        <input type="text" class="form-control" id="biodata" readonly>
-                                    </div>
                                     <div class="modal-footer">
                                         <button class="btn btn-default" data-dismiss="modal">Close</button>
                                     </div>

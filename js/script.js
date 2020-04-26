@@ -15,7 +15,6 @@ $(document).ready(function () {
         document.getElementById("jenis_kelamin").value = data[3];
         document.getElementById("tgl_masuk").value = data[4];
         document.getElementById("Jurusan").value = data[5];
-        document.getElementById("biodata").value = data[6];
 
         $("#viewModal").modal("show");
     });
