@@ -31,7 +31,6 @@
                                 <th>Jenis Kelamin</th>
                                 <th>Tanggal Masuk</th>
                                 <th>Jurusan</th>
-                                <th>Biodata</th>
                                 <th>detail</th>
                             </tr>
                         </thead>
@@ -50,9 +49,7 @@
                                 $jenis_kelamin = $baris['jenis_kelamin'];
                                 $tgl_masuk = $baris['tgl_masuk'];
                                 $Jurusan = $baris['jurusan'];
-                                $biodata = $baris['biodata'];
                             ?>
-
                                 <tr>
                                     <td><?php echo $Id ?></td>
                                     <td><?php echo $nama_siswa ?></td>
@@ -60,7 +57,6 @@
                                     <td><?php echo $jenis_kelamin ?></td>
                                     <td><?php echo $tgl_masuk ?></td>
                                     <td><?php echo $Jurusan ?></td>
-                                    <td><?php echo $biodata ?></td>
                                     <td><button style="font-size: 11px;" class="btn btn-primary" id="detail" name="detail" title="lihat detail"><i class="fa fa-search"></i></button></td>
                                 </tr>
                             <?php } ?>
